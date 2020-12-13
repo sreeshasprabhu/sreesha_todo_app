@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+
+}
+body{
+    
+   background-image: url('../images/todo2.jpg');
+   background-size: cover;
+}
+.menubar{
+    /* background-image: linear-gradient(to right,#6db9ef,#7ce08a); */
+    background-image: linear-gradient(to right,#FFF,#52c06d);
+    
+}
+/* links white color */
+.nav-link{
+    font-size: 16px;
+    color:rgb(10, 9, 9) !important;
+    margin:2px;
+}
+/* when responsive the links should be in the right side */
+.navbar-nav{
+    text-align: right;
+
+}
+.menubar .navbar-toggler{
+
+    padding-right:0;
+    outline:none;
+    border:none;
+}
+.menubar img{
+    width:75px;
+    height:50px;
+
+}
+
+.form{
+    margin-top: 250px;
+    border-radius: 20px;
+    border: solid 1px black;   
+    background-color: rgb(90, 182, 116);
+    padding: 10px;
+}
+.form button{
+    border-radius: 10px;
+}
+#tbll {
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+#tbll th,td{
+    border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background-color: #52c06d;
+  }
+
+
+
